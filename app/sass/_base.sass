@@ -15,6 +15,10 @@ body
 	overflow-x: hidden
 	opacity: 1
 
+p, ul
+	margin: 0
+	padding: 0
+
 .img-responsive
 	display: block
 	max-width: 100%
@@ -22,3 +26,9 @@ body
 
 .text-center
 	text-align: center
+
+.clearfix::after
+	content: ""
+	clear: both
+	display: table
+
