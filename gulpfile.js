@@ -25,6 +25,8 @@ gulp.task('browser-sync', function() {
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		'app/libs/slimmenu/js/jquery.slimmenu.min.js',
+		//'app/libs/slicknav/jquery.slicknav.min.js',
 		'app/libs/owlcarousel/js/owl.carousel.min.js',
 		'app/js/common.js', // Всегда в конце
 		])
