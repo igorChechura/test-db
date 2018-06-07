@@ -10,15 +10,20 @@ $(function() {
 		prependTo: '.mobile-menu',
 	});*/
 	
-	// Slimmenu
-	
-	$('.menu').slimmenu({
+	// Slimmenu	
+	/*$('.menu').slimmenu({
 		resizeWidth: '1024',
 		collapserTitle: 'Меню',
 		animSpeed: 'medium',
 		easingEffect: null,
 		indentChildren: false,
 		childrenIndenter: '&nbsp;'
+	});*/
+	
+	// Menu-button
+	$('.menu-button').click(function(){
+		$(this).toggleClass('is-active');
+		$('.menu').toggleClass('menu-active');
 	});
 	
 	// Owl-carousel
