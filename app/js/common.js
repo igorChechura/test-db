@@ -5,20 +5,10 @@ $(function() {
 		$('.top-banner').fadeOut();
 	});
 	
-	// Snlicknav
-	/*$('.menu ul').slicknav({
-		prependTo: '.mobile-menu',
-	});*/
-	
-	// Slimmenu	
-	/*$('.menu').slimmenu({
-		resizeWidth: '1024',
-		collapserTitle: 'Меню',
-		animSpeed: 'medium',
-		easingEffect: null,
-		indentChildren: false,
-		childrenIndenter: '&nbsp;'
-	});*/
+	// Search-panel
+	$('.search').click(function(){
+		$('.search-panel').toggleClass('show-search');
+	});
 	
 	// Menu-button
 	$('.menu-button').click(function(){

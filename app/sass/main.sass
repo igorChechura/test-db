@@ -70,6 +70,8 @@ header
 .menu, .lang-panel, .search
 	float: left
 
+// Меню
+
 .menu
 	ul
 		margin-left: 117px
@@ -106,6 +108,8 @@ header
 					&::after
 						width: 100%
 	
+// Языковая панель
+	
 .lang-panel
 	ul
 		margin-left: 13px
@@ -137,12 +141,33 @@ header
 					height: 14px
 					background-color: #dddddd
 	
+// Поиск
+	
 .search
 	width: 24px
 	height: 24px
 	background: url(../img/magnifying-glass.png) no-repeat
 	margin: 24px 0 0 70px
 	cursor: pointer
+
+.search-panel
+	display: none
+.show-search
+		display: block
+		position: absolute
+		top: 100%
+		right: 0
+		padding: 20px
+		background-color: #0066a1
+		button
+			padding: 4px 15px
+			border: none
+			background-color: #fab330
+			color: #fff
+			text-transform: uppercase
+			font-size: 14px
+			font-weight: 700
+			cursor: pointer
 
 // Slider
 
@@ -159,6 +184,7 @@ header
 		font-size: 22px
 		line-height: 15.94px
 		font-weight: normal
+		white-space: nowrap
 	&-item
 		display: inline-block
 		padding: 25px 60px 40px
